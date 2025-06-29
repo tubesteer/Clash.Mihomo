@@ -3,7 +3,7 @@ mixed-port: 8888
 allow-lan: true
 bind-address: "*" 
 find-process-mode: strict
-mode: rule
+mode: Rule
 geox-url:
   geoip: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
   geosite: "https://fastly.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
@@ -27,7 +27,7 @@ profile:
 tun: 
   enable: true
   device: Mihomo
-  stack: System
+  stack: Mixed
   dns-hijack: ['any:53']
   auto-route: true
   auto-detect-interface: true
