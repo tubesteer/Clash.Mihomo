@@ -27,8 +27,8 @@ profile:
 tun: 
   enable: true
   device: Mihomo
-  stack: Mixed
-  dns-hijack: ['any:53']
+  stack: System
+  dns-hijack: ['0.0.0.0:53']
   auto-route: true
   auto-detect-interface: true
 sniffer:
