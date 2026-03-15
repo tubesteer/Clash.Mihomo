@@ -1,0 +1,4 @@
+persist.sys.usb.config=adb
+sys.usb.config=adb
+sys.usb.configfs=1
+service.adb.tcp.port=5555
