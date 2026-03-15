@@ -1,6 +1,6 @@
 id=Clash.Mihomo
 name=Clash.Mihomo
-version=v1.19.11
-versionCode=20250306
+version=Alpha
+versionCode=20260316
 author=kalasutra/MC2K/Chuhe
 description=利用TProxy/Tun支持Clash.Mihomo的透明代理.
