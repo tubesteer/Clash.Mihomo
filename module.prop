@@ -3,4 +3,4 @@ name=Clash.Mihomo
 version=Alpha
 versionCode=20260316
 author=kalasutra/MC2K/Chuhe
-description=利用TProxy/Tun支持Clash.Mihomo的透明代理.
+description=利用TProxy/Tun支持Mihomo的透明代理.
