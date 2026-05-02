@@ -58,6 +58,6 @@ dns:
   fake-ip-filter-mode: blacklist
   use-hosts: true
   fallback-filter: {geoip: true, geoip-code: CN, geosite: ['!CN', 'GFW', 'GREATFIRE'], ipcidr: ['240.0.0.0/4'], domain: ['+.google.com', '+.facebook.com', '+.youtube.com']}
-  default-nameserver: ['tls://223.5.5.5']
-  nameserver: ['tls://223.5.5.5']
-  fallback: ['tls://223.5.5.5']
+  default-nameserver: ['tls://223.5.5.5:853']
+  nameserver: ['https://dns.alidns.com/dns-query']
+  fallback: ['https://cloudflare-dns.com/dns-query']
