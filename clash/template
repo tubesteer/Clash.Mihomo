@@ -17,6 +17,7 @@ geosite-matcher: succinct
 log-level: info
 ipv6: true
 external-controller: 0.0.0.0:9090
+external-controller-tls: 0.0.0.0:9443
 global-client-fingerprint: chrome
 keep-alive-interval: 30
 tcp-concurrent: true
