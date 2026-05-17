@@ -17,3 +17,5 @@ Clash.Mihomo 模块
 内核下载链接：https://github.com/MetaCubeX/mihomo/releases/tag/Prerelease-Alpha
 
 文件配置示例：https://github.com/MetaCubeX/mihomo/blob/Alpha/docs/config.yaml
+
+需要自己下载代码封装成模块（只要压缩成zip就可以用了）。
