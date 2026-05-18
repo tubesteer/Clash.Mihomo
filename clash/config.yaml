@@ -4,7 +4,6 @@ proxy-providers:
 proxy-groups:
   - {name: "PROXY", type: select, url: 'http://www.gstatic.com/generate_204', interval: 300, include-all: true}
 rules:
- - IN-TYPE,INNER,DIRECT
  - GEOSITE,PRIVATE,DIRECT
  - GEOSITE,CN,DIRECT
  - GEOIP,PRIVATE,DIRECT
